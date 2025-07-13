@@ -6,7 +6,7 @@ function PageTwo() {
     <div className=' relative h-screen w-screen '>
         
         <img 
-            className="absolute inset-0 w-full h-full object-cover z-0  " 
+            className="absolute inset-0 w-full h-[80%] object-cover z-0  " 
             src={pageTwo}
             alt="Yellow Backdrop"/>  
 
@@ -17,10 +17,6 @@ function PageTwo() {
                 
                 <h4 className='font-semibold'>ITINERARY</h4>
             </div>
-          
-            
-           
-
             <div className="flex flex-col space-y-5 items-center justify-center  ">
 
                 
