@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/ratherlafia-forghive');
+@import url('https://fonts.cdnfonts.com/css/meliodash');
+@import url('https://fonts.cdnfonts.com/css/anonymous-pro');
+@import "tailwindcss";
+
+@layer base{
+  html{
+    background-color: #FFFCEF;
+  }
+}
+
+@layer utilities{
+  .font-forghive{
+    font-family: 'Ratherlafia Forghive', sans-serif;
+                                                
+  }
+}
+
+@layer utilities{
+  .font-num{
+    font-family: 'Meliodash', sans-serif;
+                                                
+  }
+}
+
+@layer utilities{
+  .font-pro{
+    font-family: 'Anonymous Pro', sans-serif;
+                                                
+                                                
+  }
+}
