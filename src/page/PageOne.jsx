@@ -1,5 +1,5 @@
 import React from 'react'
-import landing from "../assets/Landing.png"
+import landing from "../assets/landing.png"
 import AnimatedContent from '../components/AnimatedContent'
 function Landing() {
   return (
