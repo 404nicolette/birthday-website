@@ -5,22 +5,21 @@ function PageFour() {
 
     <div className="relative w-full h-screen overflow-y-hidden ">
     
-            <img
-                className="absolute w-full h-full object-bottom object-contain z-0  "
-                src={landing}
-                alt="Cheers!"
-            />
-    
+        <img
+            className="absolute w-full h-full object-bottom object-contain z-0  md:object-cover md:object-top "
+            src={landing}
+            alt="Cheers!"
+        />
+
         
-            <div className="h-[80%] z-10 flex items-center justify-center">
-    
-                <div className="flex flex-col items-center justify-center">
-                    <h3 className="font-forghive text-[#6B0000] text-[1.3rem] -mt-10">Thank you for celebrating with me</h3>
-                    <h3 className="font-n text-[#6B0000] font-medium italic text-[3rem]">-N</h3>
-                </div>
+          <div className="absolute w-full h-[80%] z-20 flex items-center justify-center md:mt-30 slide-in">
+            <div className="flex  flex-col items-center justify-center">
+                <h3 className="font-forghive text-[#6B0000] text-[1.2rem] md:text-[2rem] ">Thank you for celebrating with me</h3>
+                <h3 className="font-n text-[#6B0000] font-medium italic text-[3rem]">-N</h3>
             </div>
+          </div>
     
-        </div>
+    </div>
    
 
 

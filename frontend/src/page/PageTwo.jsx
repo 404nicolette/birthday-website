@@ -10,7 +10,7 @@ function PageTwo() {
             src={pageTwo}
             alt="Yellow Backdrop"/>  
 
-        <div className='relative z-10 font-pro text-[#6B0000] flex flex-col items-center justify-center h-full px-10 py-10'>
+        <div className='relative z-10 font-pro text-[#6B0000] flex flex-col items-center justify-center h-full px-10 py-10 slide-in'>
             <h4 className='font-bold'>WHEN: 26 JULY 2025</h4>
 
             <div className='text-center w-full space-y-10 my-10'>
