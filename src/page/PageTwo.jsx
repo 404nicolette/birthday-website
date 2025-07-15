@@ -1,13 +1,14 @@
 import React from 'react'
 import pageTwo from "../assets/page-two.jpg"
 import ColourBlocks from '../components/ColourBlocks'
-import colour from "../assets/colour.jpg"
+import borderImg from "../assets/border.png"
+
 function PageTwo() {
   return (
     <div className='relative w-screen h-screen flex flex-col items-center justify-center'>
-    
 
         <div className='flex flex-col items-center justify-center text-center font-pro text-[#6B0000] font-bold h-full w-full p-5 overflow-y-scroll'>
+
             <h4>WHEN: 26 JULY 2025</h4>
             <br/>
 
