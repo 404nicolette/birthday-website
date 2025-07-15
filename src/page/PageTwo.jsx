@@ -1,57 +1,62 @@
 import React from 'react'
 import pageTwo from "../assets/page-two.jpg"
 import colour from "../assets/colour.jpg"
+import border from "../assets/border.svg"
 function PageTwo() {
   return (
-    <div className=' relative h-screen w-screen '>
-        
-        <img 
-            className="absolute inset-0 w-full h-[80%] object-cover z-0  " 
-            src={pageTwo}
-            alt="Yellow Backdrop"/>  
+    <div className='relative w-screen h-screen flex flex-col items-center justify-center'>
+    
 
-        <div className='relative z-10 font-pro text-[#6B0000] flex flex-col items-center justify-center h-full px-10 py-10 slide-in'>
-            <h4 className='font-bold'>WHEN: 26 JULY 2025</h4>
+        <div className='flex flex-col items-center justify-center text-center font-pro text-[#6B0000] font-bold h-full w-full p-5 overflow-y-scroll'>
+            <h4>WHEN: 26 JULY 2025</h4>
+            <br/>
 
-            <div className='text-center w-full space-y-10 my-10'>
-                
-                <h4 className='font-semibold'>ITINERARY</h4>
-            </div>
-            <div className="flex flex-col space-y-5 items-center justify-center  ">
-
-                
-
-                <div className="flex justify-between w-full ">
-                    <h5 className="font-semibold">DINNER AT GRASSO SOHO</h5>
-                    <h5 className="font-semibold mx-2">8:30PM</h5>
-                </div>
-
-                <div className="flex justify-between w-full">
-                    <h5 className="font-semibold text-wrap ">DRINKS AT SOHO RESIDENCE</h5>
-                    <h5 className="font-semibold mx-2">10:30PM</h5>
-                </div>
+            <div>
+                <h4>ITINERARY</h4>
+                <br/>
                
+                
+                <div className='flex justify-between items-center w-full'>
+                    <h4>DINNER AT GRASSO SOHO</h4>
+                    <h4>8:30PM</h4>
+                </div>
+                <br/>
 
-                <p className='text-[0.8rem] text-center my-10 '>
+                <div className='flex justify-between items-center w-full'>
+                    <h4>DRINKS AT SOHO RESIDENCE</h4>
+                    <h4>10:30PM</h4>
+                </div>
+
+                <p className='text-[0.7rem] text-center my-5 px-3 '>
                     Dinner is for the girlies, invite only. <br/><br/>
                     +1s are welcome to join us for drinks, please let me know by 18th July so I can include them in the booking.
                 </p>
 
-               
-                <div className='flex flex-col items-center justify-center space-y-5 '>
+                 <div className='flex flex-col items-center justify-center mt-10'>
                     <h4 className='font-semibold'>DRESS CODE</h4>
                     
-                    <h4 className='font-semibold'>LEO & RUBY NIGHT</h4>
-                    <p className='text-[0.8rem] text-center '>think front row main character, boss babe, WAG energy</p>
-                    <img className=' py-3' src={colour} alt={"Dress code colour"}></img>
+                    <h4 className='font-semibold mt-5'>LEO & RUBY NIGHT</h4>
+                    <p className='text-[0.7rem] text-center px-3  '>think front row main character, boss babe, <br/>WAG energy</p>
 
+                    <div className='h-[20%] w-[60%] mt-5'>
+                        <img 
+                            className='h-[20%]' 
+                            src={colour} 
+                            alt={"Dress code colour"} />
+                    </div>
                 </div>
-            
             </div>
-
         </div>
 
+        <img
+            className='absolute object-cover -z-10  w-full h-full'
+            src={pageTwo}
+            alt="Background Image"
+        />
+
+        
     </div>
+
   )
 }
 
