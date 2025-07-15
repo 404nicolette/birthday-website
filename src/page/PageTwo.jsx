@@ -1,7 +1,7 @@
 import React from 'react'
 import pageTwo from "../assets/page-two.jpg"
+import ColourBlocks from '../components/ColourBlocks'
 import colour from "../assets/colour.jpg"
-import border from "../assets/border.svg"
 function PageTwo() {
   return (
     <div className='relative w-screen h-screen flex flex-col items-center justify-center'>
@@ -38,12 +38,24 @@ function PageTwo() {
                     <h4 className='font-semibold mt-5'>LEO & RUBY NIGHT</h4>
                     <p className='text-[0.7rem] text-center px-3  '>think front row main character, boss babe, <br/>WAG energy</p>
 
-                    <div className='h-[20%] w-[60%] mt-5'>
+                    <div className='flex items-center justify-center my-2'>    
+                        <ColourBlocks colourCode={"#6B0000"} whiteBorder={"#6B0000"}/>
+                        <ColourBlocks colourCode={"#CE2723"} whiteBorder={"#CE2723"}/>
+                        <ColourBlocks colourCode={"#693E2C"} whiteBorder={"#693E2C"}/>
+                        <ColourBlocks colourCode={"#DFD4C4"} whiteBorder={"#DFD4C4"}/>
+                        <ColourBlocks colourCode={"#000000"} whiteBorder={"#000000"}/>
+                        <ColourBlocks colourCode={"#FFFFFF"} whiteBorder={"#000000"}/>
+                    </div>
+
+                   
+
+
+                    {/* <div className='h-[20%] w-[60%] mt-5'>
                         <img 
                             className='h-[20%]' 
                             src={colour} 
                             alt={"Dress code colour"} />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

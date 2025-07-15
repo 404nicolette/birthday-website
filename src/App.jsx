@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Main from './page/Main';
-// import "index.css"
+import ColourBlocks from './components/ColourBlocks';
 function App() {
 
   return (
@@ -9,6 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="/test" element={<ColourBlocks />} />
       </Routes>
     </Router>
   )
