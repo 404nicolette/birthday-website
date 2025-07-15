@@ -38,7 +38,7 @@ function PageTwo() {
                     <h4 className='font-semibold mt-5'>LEO & RUBY NIGHT</h4>
                     <p className='text-[0.7rem] text-center px-3 mb-2 '>think front row main character, boss babe, <br/>WAG energy</p>
 
-                    <div className='flex items-center justify-center border-1 w-[80%]'>    
+                    <div className='flex items-center justify-center w-[80%]'>    
                         <ColourBlocks colourCode={"#6B0000"} whiteBorder={"#6B0000"}/>
                         <ColourBlocks colourCode={"#CE2723"} whiteBorder={"#CE2723"}/>
                         <ColourBlocks colourCode={"#693E2C"} whiteBorder={"#693E2C"}/>
