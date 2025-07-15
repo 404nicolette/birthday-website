@@ -36,9 +36,9 @@ function PageTwo() {
                     <h4 className='font-semibold'>DRESS CODE</h4>
                     
                     <h4 className='font-semibold mt-5'>LEO & RUBY NIGHT</h4>
-                    <p className='text-[0.7rem] text-center px-3  '>think front row main character, boss babe, <br/>WAG energy</p>
+                    <p className='text-[0.7rem] text-center px-3 mb-2 '>think front row main character, boss babe, <br/>WAG energy</p>
 
-                    <div className='flex items-center justify-center my-2'>    
+                    <div className='flex items-center justify-center border-1 w-[80%]'>    
                         <ColourBlocks colourCode={"#6B0000"} whiteBorder={"#6B0000"}/>
                         <ColourBlocks colourCode={"#CE2723"} whiteBorder={"#CE2723"}/>
                         <ColourBlocks colourCode={"#693E2C"} whiteBorder={"#693E2C"}/>
@@ -47,15 +47,6 @@ function PageTwo() {
                         <ColourBlocks colourCode={"#FFFFFF"} whiteBorder={"#000000"}/>
                     </div>
 
-                   
-
-
-                    {/* <div className='h-[20%] w-[60%] mt-5'>
-                        <img 
-                            className='h-[20%]' 
-                            src={colour} 
-                            alt={"Dress code colour"} />
-                    </div> */}
                 </div>
             </div>
         </div>
