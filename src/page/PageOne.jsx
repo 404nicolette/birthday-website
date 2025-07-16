@@ -9,7 +9,7 @@ function Landing() {
         src={landing}
         alt="Cheers!"
       />
-      <div className="absolute w-full h-[80%] z-20 flex items-center justify-center md:mt-20 ">
+      <div className="absolute w-full h-[80%] z-20 flex items-center justify-center -mt-50 md:mt-20 ">
         <div className="flex items-center ">
           <h1 className="font-forghive text-[#6B0000] text-[3.5rem] mt-7 md:text-[5rem]">Nicole</h1>
           <h1 className="font-num text-[5rem] font-medium text-[#6B0000] pr-2 md:text-[6rem]">25</h1>
